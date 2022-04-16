@@ -1,0 +1,33 @@
+.rewiews {
+    padding-bottom: 60px;
+    color: $dark-color;
+    &__item {
+        display: flex;
+        margin-top: 60px;
+    }
+    &__content {
+        margin-left: 60px;
+    }
+    &__name {
+        margin-bottom: 0;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: #0D0D0D;
+    }
+    &__status {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &__message{
+        margin-top: 16px;
+        & p {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            color: $dark-color;
+        }
+
+    }
+}
