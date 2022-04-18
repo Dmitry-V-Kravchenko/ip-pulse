@@ -1,0 +1,26 @@
+@media (max-width: 1200px) {
+    .carousel {
+        .tns-outer {
+            margin: 0 auto;
+            width: 887px;
+        }
+        .prev {
+            left: -20px;
+        }
+        .next {
+            right: -20px;
+        }
+        .tns-item img {
+            display: block;
+            margin: 0 auto;
+            width: 887px;
+        }
+    }
+}
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
