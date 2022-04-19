@@ -18,6 +18,190 @@
     }
 }
 @media (max-width: 991px) {
+    .container {
+        max-width: 728px;
+    }
+    .header {
+        &__logo {
+            width: 202px;
+        }
+        &__title {
+            font-size: 28px;
+        }
+        &__subtitle {
+            font-size: 10px;
+        }
+        &__official {
+            font-size: 10px;
+            line-height: 10px;
+            span {
+                font-size: 16px;
+                line-height: 16px;
+            }
+        }
+        &__phone {
+            font-size: 16px;
+            line-height: 16px;
+        }
+    }
+    .promo {
+        min-height: 500px;
+        padding-bottom: 70px;
+        &__wrapper {
+            margin-top: 60px;
+        }
+        &__header {
+            font-size: 36px;
+            line-height: 36px;
+        }
+        &__subheader {
+            margin-top: 8px;
+            font-size: 20px;
+            font-size: 20px;
+        }
+        &__icons {
+            margin-top: 45px;
+            width: 330px;
+        }
+        &__icon {
+            width: 92px;
+            font-size: 12px;
+            line-height: 12px;
+        }
+        &__link {
+            margin-top: 12px;
+            font-size: 14px;
+            line-height: 14px;
+        }
+    }
+    .title {
+        font-size: 26px;
+    }
+    .features {
+        min-height: 400px;
+        padding: 50px 0 60px 0;
+        &__item {
+            margin-top: 40px;
+            width: 200px;
+        }
+        &__subtitle {
+            font-size: 16px;
+            line-height: 16px;
+        }
+        &__descr {
+            font-size: 12px;
+            line-height: 16px;
+        }
+    }
+    .consultation {
+        min-height: 456px;
+        padding: 50px 0 60px 0;
+        .title_left {
+            line-height: 34px;
+        }
+        &__descr {
+            font-size: 16px;
+            line-height: 20px;
+        }
+        .feed-form input {
+            width: 220px;
+            height: 36px;
+        }
+    }
+    .carousel {
+        padding: 70px 0;
+        .container {
+            margin: 0 50px;
+        }
+        .tns-outer {
+            width: 668px;
+        }
+        .prev {
+            left: -40px;
+            padding: 0;
+        }
+        .next {
+            right: -40px;
+            padding: 0;
+        }
+        .prev img, .next img {
+            height: 30px;
+            width: 18px;
+        }
+        .tns-item img {
+            width: 668px;
+        }
+    }
+    .catalog {
+        padding-bottom: 50px;
+        .container {
+            margin: 0 60px;
+        }
+        &__tabs {
+            margin-top: 40px;
+        }
+        &__tab {
+            width: 200px;
+            height: 44px;
+            font-size: 16px;
+            line-height: 44px;
+        }
+        &__content {
+            margin-top: 45px;
+        }
+    }
+    .rewiews {
+        &__item {
+            margin-top: 46px;
+        }
+        &__avatar img {
+            width: 120px;
+        }
+        &__name {
+            font-size: 16px;
+            line-height: 16px;
+        }
+        &__status {
+            font-size: 12px;
+            line-height: 18px;    
+        }
+        &__message {
+            margin-top: 12px;
+            p {
+                font-size: 14px;
+                line-height: 21px;
+            }
+        }
+    }
+    .footer {
+        &__info {
+            width: 370px;
+            height: 200px;
+            padding: 36px 42px 36px 42px;
+        }
+        
+        &__addr {
+            font-size: 16px;
+            line-height: 16px;
+            margin-bottom: 24px;
+        }
+        &__phone {
+            font-size: 16px;
+            line-height: 16px;
+            margin-bottom: 28px;
+        }
+        &__social-item {
+            width: 40px;
+            height: 40px;
+            img {
+                height: 18px;
+            }
+        }
+        &__social {
+            width: 180px;
+        }
+    }
+
 
 }
 

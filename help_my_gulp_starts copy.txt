@@ -1,0 +1,3 @@
+Команда в powershell чтобы разрешать скрипты в текущем процессе Windows. Без этого Gulp не стартует.
+
+Set-ExecutionPolicy RemoteSigned -Scope Process

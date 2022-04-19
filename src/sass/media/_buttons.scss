@@ -1,0 +1,16 @@
+@media (max-width: 991px) {
+    .button {
+        width: 144px;
+        height: 28px;
+        &_main, &_submit {
+            width: 220px;
+            height: 36px;
+            font-size: 14px;
+            line-height: 14px;
+        }
+        &_main {
+            margin-top: 40px;
+        }
+    }
+
+}
