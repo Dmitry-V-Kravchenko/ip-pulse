@@ -253,6 +253,29 @@
             margin: 0 18px;
         }
     }
+    .modal {
+        width: 300px;
+        min-height: 340px;
+        padding: 26px 30px 30px;
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+        .feed-form {
+            margin-left: auto;
+            margin-right: auto;
+            align-items: center;
+            justify-content: center;
+            width: 220px;
+            input {
+                width: 220px;
+                height: 36px;
+            }
+        }
+    }
+
     @media (max-width: 575px) {
         .container {
             margin: 0 16px;
@@ -372,6 +395,14 @@
         .footer {
             &__info {
                 width: 320px;
+            }
+        }
+        .modal {
+            &__close {
+                top: 6px;
+                right: 6px;
+                font-size: 30px;
+                line-height: 21px;
             }
         }
     }
